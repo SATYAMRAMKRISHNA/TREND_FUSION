@@ -1,0 +1,116 @@
+.connect-page {
+  padding: 30px;
+}
+
+.connect-page h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+input{
+  width: 50%;
+  font-size: larger;
+}
+.outfit-form {
+  align-items: center;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.submit-btn{
+  width: 40%;
+  font-size: large;
+  padding-top: 30%;
+  padding-bottom: 30%;
+}
+.outfit-form input[type="text"],
+.outfit-form input[type="file"] {
+  padding: 10px;
+  font-size: 1em;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.outfit-form button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.outfit-form button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.outfit-list {
+  margin-top: 20px;
+}
+
+.outfit-item {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.outfit-image {
+  max-width: 70%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.suggestions {
+  font-size: larger;
+  margin-top: 10px;
+}
+
+.suggestions h3 {
+  
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.suggestion {
+  background-color: #e9ecef;
+  padding: 5px;
+  border-radius: 3px;
+  margin: 3px 0;
+}
+
+.suggestion-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.suggestion-form input[type="text"] {
+  padding: 10px;
+  font-size: 1em;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.suggestion-form button {
+  padding: 5px 10px;
+  font-size: 0.9em;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.suggestion-form button:hover {
+  background-color: #0056b3;
+}

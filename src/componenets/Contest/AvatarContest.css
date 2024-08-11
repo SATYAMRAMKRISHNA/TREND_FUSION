@@ -1,0 +1,63 @@
+.avatar-contest {
+  width: 65%;
+  margin: auto;
+  padding: 40px;
+  background: linear-gradient(to bottom, #f8d6e4, #ffeef0);
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.avatar-contest-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.avatar-contest-text {
+  flex: 1;
+  padding-right: 20px;
+  text-align: left;
+}
+
+.avatar-contest-text h1 {
+  font-size: 36px;
+  color: #454545;
+  margin-bottom: 20px;
+}
+
+.avatar-contest-text p {
+  font-size: 18px;
+  color: #616161;
+  margin-bottom: 30px;
+}
+
+.avatar-contest-text button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff4141;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.avatar-contest-text button:hover {
+  background-color: #e03a3a;
+}
+
+.avatar-contest-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.avatar-contest-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}

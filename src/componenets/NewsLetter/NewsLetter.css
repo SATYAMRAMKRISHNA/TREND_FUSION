@@ -1,0 +1,64 @@
+.newsletter {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 60px 140px 0px 140px; /* Adjusted padding to add space at the top */
+  margin-bottom: 150px;
+  background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+  gap: 30px;
+}
+
+.newsletter h1 {
+  color: #454545;
+  font-size: 55px;
+  font-weight: 600;
+  margin: 0; /* Ensure there's no default margin */
+}
+
+.newsletter p {
+  color: #454545;
+  font-size: 20px;
+  margin-top: 10px; /* Add some margin-top to avoid overlap */
+  margin-bottom: 0; /* Ensure there's no default bottom margin */
+}
+
+.newsletter div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  width: 730px;
+  height: 70px;
+  border-radius: 80px;
+  border: 1px solid #e3e3e3;
+  overflow: hidden; /* Prevent any overflow */
+}
+
+.newsletter input {
+  flex: 1; /* Adjust to take up remaining space */
+  padding: 0 20px;
+  border: none;
+  color: #616161;
+  outline: none;
+  font-family: Poppins, sans-serif; /* Ensure Poppins font is used */
+  font-size: 16px;
+}
+
+.newsletter div button {
+  width: 210px;
+  height: 70px; /* Adjusted height to fit better */
+  border-radius: 80px; /* Adjusted border-radius to fit button height */
+  background: black;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease; /* Added transition for hover effect */
+}
+
+.newsletter div button:hover {
+  background-color: #333333; /* Darker shade for hover effect */
+}

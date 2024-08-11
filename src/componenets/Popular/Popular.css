@@ -1,0 +1,32 @@
+.popular {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Increased gap for better spacing */
+  padding: 20px; /* Added padding for inner spacing */
+  height: auto; /* Set to auto for flexibility */
+  background-color: #f9f9f9; /* Light background for contrast */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.popular h1 {
+  color: #171717;
+  font-size: 36px; /* Adjusted for better visibility */
+  font-weight: 600;
+  text-align: center; /* Center align for aesthetics */
+  margin-bottom: 10px; /* Space below the heading */
+}
+
+.popular hr {
+  width: 200px;
+  border: 1px solid #ccc; /* Soft border for the line */
+  margin: 10px 0; /* Margin for spacing */
+}
+
+.popular-item {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+  justify-content: center; /* Center items in the container */
+  gap: 15px; /* Space between items */
+}

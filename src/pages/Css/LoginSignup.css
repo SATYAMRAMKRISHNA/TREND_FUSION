@@ -1,0 +1,80 @@
+/* src/Css/LoginSignup.css */
+
+/* src/Css/LoginSignup.css */
+
+.loginsignup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #fce3f3; /* Light background color */
+}
+
+.loginsignup-container {
+  background: white;
+  padding: 40px; /* Increased padding */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 350px; /* Increased width */
+}
+
+.loginsignup h1 {
+  text-align: center;
+  color: #454545;
+  margin-bottom: 25px; /* Increased margin */
+}
+
+.loginsignup-fields {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginsignup-fields input {
+  margin-bottom: 15px;
+  padding: 12px; /* Increased padding */
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  font-size: 16px; /* Increased font size */
+}
+
+.loginsignup-fields input:focus {
+  border-color: #ff4141; /* Focus color */
+}
+
+.loginsignup-fields button {
+  padding: 12px; /* Increased padding */
+  background-color: #ff4141;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px; /* Increased font size */
+}
+
+.loginsignup-fields button:hover {
+  background-color: #e03a3a; /* Darker shade on hover */
+}
+
+.loginsignup-login {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.loginsignup-login span {
+  color: #ff4141; /* Highlighted color for "Login here" */
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.loginsignup-agree {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.loginsignup-agree input {
+  margin-right: 10px;
+}
