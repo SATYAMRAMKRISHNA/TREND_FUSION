@@ -12,7 +12,7 @@ const AvatarContest = () => {
           <p>
             Participate in our exciting weekly avatar styling contest! Style the avatar
             according to the theme provided by TrendFusion and stand a chance to win
-            amazing prizes. Showcase your fashion skills and creativity.
+            amazing prizes. Showcase your fashion skills.
           </p>
           <Link to="/contest">
           <button>Join the Contest</button>
